@@ -25,17 +25,19 @@ Bert, Gpt3 etc.
 - num_heads = 8
 - dropout_rate = 0.1
 
-
 ## Data
 
 This implementation uses the dataset 「wmt_translate」 from tensorflow dataset <br>
 and only use the sentence lenth < 35.
 
+## Loss and Accuracy
+
 ## Result
 
 
 ## References
-1.  ***Attention Is All You Need***[arxiv][https://arxiv.org/abs/1706.03762]
-2.  
+1.  ***Attention Is All You Need***  [[arxiv](https://arxiv.org/abs/1706.03762)]
+2.  Transformer model for language understanding [https://www.tensorflow.org/text/tutorials/transformer]
+3.  ***LeeMeng*** [https://leemeng.tw/neural-machine-translation-with-transformer-and-tensorflow2.html]
 
 
