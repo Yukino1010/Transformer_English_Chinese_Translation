@@ -10,7 +10,7 @@ import numpy as np
 
 from tensorflow.keras.layers import Dense, LayerNormalization, Dropout
 
-
+# the functions are from https://www.tensorflow.org/text/tutorials/transformer
 
 def scaled_dot_product_attention(q, k, v, mask):
     
