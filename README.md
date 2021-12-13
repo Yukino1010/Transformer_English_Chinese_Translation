@@ -14,7 +14,7 @@ It is also because of the emergence of transfomer that many models with better p
 Bert, Gpt3 etc.
 
 ## Network Structure
-
+![image](https://github.com/Yukino1010/Transformer_English_Chinese_Translation/blob/master/result/model_structure.png)
 
 ## Hyperparameters
 
@@ -32,7 +32,14 @@ but only use the sentence lenth < 35.
 
 ## Loss and Accuracy
 
+![image](https://github.com/Yukino1010/Transformer_English_Chinese_Translation/blob/master/result/accracy_loss.png)
+
+
 ## Result
+
+![image](https://github.com/Yukino1010/Transformer_English_Chinese_Translation/blob/master/result/attention_weights.png)
+
+As you can see on the picture，you can surprisingly found that the model had concentrated on some certain english words when generating chinese words, such as years correspond to "年" on the first subgraph and economiy correspond to "經濟" on head2 、 head5.
 
 
 ## References
